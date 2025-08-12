@@ -1,0 +1,36 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: auto;
+    flex:0 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleSide {
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    position: relative;
+    bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    height: 100vh;
+    flex: 2;
+}
