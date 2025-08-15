@@ -1,3 +1,8 @@
+@font-face {
+    font-family: title-font;
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
 * {
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.5rem;
@@ -33,6 +38,7 @@ body {
 }
 
 #title {
+    font-family:'title-font';
     position: relative;
     top: 400px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -108,4 +114,18 @@ button {
     border-radius: 5px;
     background-color: pink;
     padding: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 2px 5px 5px -5px black;
 }
